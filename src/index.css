@@ -1,0 +1,143 @@
+/* 
+VS code BG color 1f1f1f
+VS code sidepanel color 181818
+VS code gray color 3e3e3e
+VS code light gray color 8a8a8a
+shaded blue color 4b7eb3
+shaded light blue color 5b98d9
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial";
+  transition: all 0.3s ease-in-out;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+body {
+  background-color: #1f1f1f;
+  color: #8a8a8a;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-border {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  margin-top: 10px;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh !important;
+  padding: 100px;
+  margin: 0;
+  box-sizing: border-box;
+}
+.CenteredBox {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+.CenteredBox .HeadPart {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 5rem;
+}
+.CenteredBox .DPpart {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  padding: 5rem;
+  
+}
+
+.PhotoContainer {
+  width: 15rem;
+  height: auto;
+}
+.PhotoContainer .PhotoBorder {
+  width: 15rem;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.CenteredBox .icon-Container {
+  display: flex;
+  margin-top: 2rem;
+}
+.CenteredBox .icon-Container .icon {
+  display: flex;
+  margin-right: 2rem;
+  font-size: 1.5em;
+}
+.CenteredBox .icon-Container .icon:hover {
+  color: #00a0e9;
+  scale: 1.1;
+}
+
+.skill {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+.skill .leftPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+.skill .rightPart {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 5rem;
+}
+.skill .rightPart h2:hover {
+  color: #00a0e9;
+  scale: 1.3;
+}
+
+
+.projectPart{
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+.projectPart .leftPart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.blueText{
+  color: #00a0e9;
+}
+
+.projectImgContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: "400px" !important;
+  height: "300px"; 
+  overflow: hidden;
+}
