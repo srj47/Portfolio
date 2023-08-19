@@ -3,7 +3,7 @@ import Home from "./Pages/Home";
 function App() {
   return (
     <>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
